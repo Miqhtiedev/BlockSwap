@@ -1,0 +1,14 @@
+name: BlockSwap
+version: 1.0
+main: me.miqhtie.blockswap.Main
+api-version: 1.16
+
+commands:
+  start:
+    description: Starts the game
+    permission: blockswap.start
+    permission-message: Missing permissions!
+  end:
+    description: Ends the game
+    permission: blockswap.end
+    permission-message: Missing permissions!
