@@ -40,7 +40,6 @@ public class BlockWhitelist {
             Material.BOOKSHELF,
             Material.OBSIDIAN,
             Material.TORCH,
-            Material.SPAWNER,
             Material.OAK_STAIRS,
             Material.CHEST,
             Material.DIAMOND_ORE,
