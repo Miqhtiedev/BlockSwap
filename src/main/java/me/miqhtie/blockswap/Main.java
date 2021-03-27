@@ -3,6 +3,7 @@ package me.miqhtie.blockswap;
 import me.miqhtie.blockswap.commands.EndCommand;
 import me.miqhtie.blockswap.commands.StartCommand;
 import me.miqhtie.blockswap.events.MoveEvent;
+import me.miqhtie.blockswap.events.PlayerJoinEvent;
 import me.miqhtie.blockswap.tasks.GameTask;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -29,5 +30,6 @@ public class Main extends JavaPlugin {
         getCommand("end").setExecutor(new EndCommand());
 
         Bukkit.getPluginManager().registerEvents(new MoveEvent(), this);
+        Bukkit.getPluginManager().registerEvents(new PlayerJoinEvent(), this);
     }
 }
